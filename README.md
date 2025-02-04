@@ -146,6 +146,8 @@ o	Instructions are hard-coded, resulting in different bit patterns than official
 | `AND R8, R1, R3` | Perform bitwise AND between R1 and R3, store in R8    | `32'h0030f433`             | `32'h0230a400`             |
 | `OR R9, R2, R5`  | Perform bitwise OR between R2 and R5, store in R9     | `32'h005164b3`             | `32'h02513480`             |
 | `XOR R10, R1, R4`| Perform bitwise XOR between R1 and R4, store in R10   | `32'h0040c533`             | `32'h0240c500`             |
+
+
 •	Waveform Analysis in GTKWave: 
 o	The .vcd file generated allowed detailed signal transition analysis.
 o	Observed behavior of each instruction through register updates and data movement.
