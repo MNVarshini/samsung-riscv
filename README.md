@@ -149,10 +149,14 @@ o	Instructions are hard-coded, resulting in different bit patterns than official
 
 
 •	Waveform Analysis in GTKWave: 
+
 o	The .vcd file generated allowed detailed signal transition analysis.
+
 o	Observed behavior of each instruction through register updates and data movement.
 
 Waveform Analysis with GTKWave
+
 •	Graphical signal representation helps in debugging and verifying instruction execution.
+
 •	Critical for understanding how each instruction modifies registers and memory.
 
