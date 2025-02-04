@@ -1,4 +1,5 @@
 Task 1
+
 Installing the RISC-V Toolchain and Compiling C Code
 Step 1: Installing the RISC-V Toolchain via VDI
 1.	Check Storage Space
@@ -84,7 +85,9 @@ o	Analyze the instruction execution
 In Task 2 of the Samsung RISC-V Talent Development Program, we extended our work by compiling and analyzing a factorial program and debugging the assembly of sum_1_to_n.c using Spike and objdump. This helped in understanding RISC-V assembly instructions and step-by-step execution for debugging.
 
 
+
 Task 3
+
 Identifying RISC-V Instruction Types and 32-bit Encoding
 In Task 3 of the Samsung RISC-V Talent Development Program, we analyzed the assembly code obtained from the objdump of a compiled RISC-V program. We identified the instruction types and extracted their exact 32-bit binary encoding.
 Key Points Covered:
@@ -105,7 +108,11 @@ o	Extracted the 32-bit binary representation of each instruction.
 o	Understood how different instruction fields (opcode, func3, rs1, rs2, imm, etc.) are used in each format.
 This task helped in gaining a deeper understanding of RISC-V instruction encoding and how machine-level operations are structured.
 
+
+
+
 Task 4
+
 Perform functional simulation of RISC-V instructions modeled as a Verilog netlist, observe the output waveforms using GTKWave, and analyze signal behavior for hard-coded ISA instructions.
 ________________________________________
 Steps Completed
