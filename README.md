@@ -267,3 +267,54 @@ Waveform Analysis with GTKWave
 
 •	Critical for understanding how each instruction modifies registers and memory.
 
+
+
+
+Task 5
+
+Project: Digital Thermometer
+
+Overview:
+
+The Digital Thermometer project using the LM35 sensor module is a simple and efficient way to measure temperature in an environment. The LM35 sensor provides a precise analog output that is directly proportional to the temperature in Celsius. The module comes pre-packaged with the LM35 sensor and additional circuitry for ease of use. The temperature reading is displayed on a 7-segment display, which shows the current temperature in Celsius.
+
+The Squadron Mini Board serves as the controller for processing the sensor's output and driving the 7-segment display. The sensor outputs a voltage proportional to the temperature, which is read by the analog input pin on the Squadron Mini Board. The microcontroller converts this analog value to a readable temperature and displays it on the 7-segment display, allowing real-time temperature monitoring.
+
+
+Components required:
+
+LM35 Temperature Sensor Module
+
+7-Segment Display (common cathode or anode)
+
+Resistors (220Ω for current limiting on the 7-segment display)
+
+VSDSquadron Mini Board
+
+Breadboard
+
+Jumper wires
+
+Power source (USB or battery)
+
+
+Circuit diagram:
+
+![circuit diagram](https://github.com/user-attachments/assets/89bd8a86-8348-4bbe-bfdb-0b6b5aed24be)
+
+
+Pin details:
+
+| Component                | Pin/Pinout            | Squadron Mini Board Pin    |
+|--------------------------|-----------------------|----------------------------|
+| 7-Segment Display        | a                     | PC1                        |
+|                          | b                     | PD1                        |
+|                          | c                     | PD4                        |
+|                          | d                     | PD3                        |
+|                          | e                     | PD2                        |
+|                          | f                     | PC0                        |
+|                          | g                     | PD0                        |
+| 7-Segment Display        | Common Pin (Cathode/Anode) | GND (for Common Cathode) or VCC (for Common Anode) |
+| LM35 Sensor Module      | VCC                   | 5V                         |
+|                          | GND                   | GND                        |
+|                          | OUT                   | PA1                        |
